@@ -1,10 +1,13 @@
-import React from 'react'
-
+import React, { useState } from 'react'
 const Services = () => {
+  const [show,setShow] = useState(true);
+  const toggleShow = ()=>{
+    setShow(show===true?false:true)
+  }
   return (
     <div>
-      <h1>Our Services</h1>
-      <p>This is the services page.</p>
+      <button onClick={toggleShow}>{show?"Hide":"Show"}</button>
+      {show && <p>This is the services page.</p>}
     </div>
   )
 }
