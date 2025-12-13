@@ -7,6 +7,7 @@ import Services from './pages/Services';
 import UseState from './hooks/UseState';
 import NavBar from './components/NavBar';
 import { Routes,Route} from 'react-router-dom';
+import UseEffect from './hooks/UseEffect';
 
 
 
@@ -20,6 +21,7 @@ const App=()=>{
       <Route path="/contact" element={<Contact/>}/>
       <Route path="/services" element={<Services/>}/>
       <Route path="/useState" element={<UseState/>}/>
+      <Route path="/useEffect" element={<UseEffect/>}/>
     </Routes>
 
    {/* <Header/> 

@@ -13,6 +13,7 @@ const NavBar = () => {
                 <li><Link to="/contact">Contact</Link></li>
                 <li><Link to="/services">Services</Link></li>
                 <li><Link to="/useState">UseState</Link></li>
+                <li><Link to="/useEffect">UseEffect</Link></li>
             </ul>
         </nav>
     </div>
