@@ -8,6 +8,7 @@ import UseState from './hooks/UseState';
 import NavBar from './components/NavBar';
 import { Routes,Route} from 'react-router-dom';
 import UseEffect from './hooks/UseEffect';
+import Form from './components/Form';
 
 
 
@@ -22,6 +23,7 @@ const App=()=>{
       <Route path="/services" element={<Services/>}/>
       <Route path="/useState" element={<UseState/>}/>
       <Route path="/useEffect" element={<UseEffect/>}/>
+      <Route path="/form" element={<Form/>}/> 
     </Routes>
 
    {/* <Header/> 
