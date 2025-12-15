@@ -9,6 +9,7 @@ import NavBar from './components/NavBar';
 import { Routes,Route} from 'react-router-dom';
 import UseEffect from './hooks/UseEffect';
 import Form from './components/Form';
+import Todo from './components/Todo';
 
 
 
@@ -24,6 +25,7 @@ const App=()=>{
       <Route path="/useState" element={<UseState/>}/>
       <Route path="/useEffect" element={<UseEffect/>}/>
       <Route path="/form" element={<Form/>}/> 
+      <Route path="/todo" element={<Todo/>}/>
     </Routes>
 
    {/* <Header/> 

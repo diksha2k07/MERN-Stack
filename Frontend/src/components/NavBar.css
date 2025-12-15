@@ -6,7 +6,7 @@
     background-color: yellow;
 }
 
-ul{
+.ul{
     list-style-type: none;
     display: flex;
     justify-content: space-around;
