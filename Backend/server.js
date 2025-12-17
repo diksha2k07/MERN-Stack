@@ -14,7 +14,7 @@ app.use(cors())
 const PORT = process.env.PORT;
 
 {/*app.get("/",()=>{
-    console.log("get router")     to get output in terminal
+    console.log("get router")     to get output in terminal  
 })*/}
 
 
